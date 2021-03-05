@@ -49,6 +49,12 @@ public class persona {
 		String devuelve = nombre + " " + edad + " " + direccion;
 		return devuelve;
 	}
+	
+	public String añonac(int edad) {
+		
+		String año = "Naciste el año: " + (2021-edad);
+		return año;
+	}
 
 	@Override
 	public String toString() {
